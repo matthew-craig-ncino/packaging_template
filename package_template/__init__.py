@@ -6,4 +6,4 @@ from .package_template import PackageTemplate
 __all__ = ["PackageTemplate"]
 __author__ = """Matthew Craig"""
 __email__ = 'matthew.craig@ncino.com'
-__version__ = '0.2.1'
+__version__ = '0.2.2'
