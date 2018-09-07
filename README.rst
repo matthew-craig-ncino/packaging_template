@@ -1,8 +1,9 @@
 ================
 Package Template
 ================
+.. image:: https://travis-ci.org/matthew-craig-ncino/packaging_template.svg?branch=master
+    :target: https://travis-ci.org/matthew-craig-ncino/packaging_template
 
-[![Build Status](https://travis-ci.org/matthew-craig-ncino/packaging_template.svg?branch=master)](https://travis-ci.org/matthew-craig-ncino/packaging_template)
 
 Everything needed to build and deploy a project.
 
