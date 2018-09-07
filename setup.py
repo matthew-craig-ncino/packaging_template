@@ -15,7 +15,7 @@ requirements = ['Click>=6.0', ]
 
 setup_requirements = [ ]
 
-test_requirements = [ ]
+test_requirements = ['pytest']
 
 setup(
     author="Matthew Craig",
@@ -49,5 +49,5 @@ setup(
     tests_require=test_requirements,
     url='https://github.com/matthew-craig-ncino/package_template',
     version='0.1.0',
-    zip_safe=False,
+    zip_safe=False
 )

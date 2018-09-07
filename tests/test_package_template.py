@@ -7,7 +7,7 @@
 import unittest
 from click.testing import CliRunner
 
-from package_template import package_template
+from package_template.package_template import PackageTemplate
 from package_template import cli
 
 
@@ -20,15 +20,16 @@ class TestPackage_template(unittest.TestCase):
     def tearDown(self):
         """Tear down test fixtures, if any."""
 
-    def test_000_something(self):
-        """Test something."""
+    def test_package_template_print(self):
+        PackageTemplate().run()
+        assert True
 
     def test_command_line_interface(self):
         """Test the CLI."""
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
-        assert 'package_template.cli.main' in result.output
+        assert 'Ya! You packaged a Print Statement!\n' in result.output
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output

@@ -3,14 +3,13 @@
 """Console script for package_template."""
 import sys
 import click
+from package_template import PackageTemplate
 
 
 @click.command()
 def main(args=None):
     """Console script for package_template."""
-    click.echo("Replace this message by putting your code into "
-               "package_template.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    PackageTemplate().run()
     return 0
 
 
