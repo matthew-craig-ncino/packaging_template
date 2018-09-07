@@ -2,19 +2,13 @@
 Package Template
 ================
 
-
-
-
-
-
 Everything needed to build and deploy a project.
-
-
 
 Features
 --------
 
-* TODO
+* Working Unit tests Python2 & Python3
+* Working CLI and package commands
 
 Credits
 -------
